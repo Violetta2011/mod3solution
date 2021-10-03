@@ -1,0 +1,99 @@
+/********** Base styles **********/
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: white;
+  font-family: italic, sans-serif;
+}
+
+
+/** HEADER **/
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  width: 100px;
+  padding-top: 10px;
+
+}
+
+h1 {
+  font-family: Italic;
+  color: black;
+  text-align: ;
+ 
+}
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+  button.navbar-toogler{
+float:right;
+  }
+}
+
+
+@media screen and (min-width:992px) {
+  .nav-item {display:none}
+}
+
+li{
+font-size: 20;
+  text-align: center;
+  font-family: Italic;
+ }
+h2 {
+    text-align: center;
+    font-family: cursive;
+    color: black;
+  }
+  
+  p {
+    font: Arial;
+    font-family: cursive;
+    padding-left: 0.7rem;
+    border: 2px solid black;
+    background-color: #a7a1a1;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+  
+
+  /* Simple Responsive Framework. */
+  .container1{
+    width: 98%;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 40px;
+  }
+  .span1 {
+    font-family: cursive;
+    padding-top: 0.2rem;
+    color: rgb(0, 0, 0);
+    width: 150px;
+    height: 35px;
+    
+  }
+  .span2 {
+    font-family: cursive;
+    padding-top: 0.2rem;
+    color: rgb(0,0,0);
+    width: 150px;
+    height: 35px;
+  }
+
+  .span3 {
+    font-family: cursive;
+    padding-top: 0.1rem;
+    color: rgb(0, 0, 0);
+    width: 150px;
+    height: 35px; 
+  }
+
+  .col-centered{
+    float: none;
+    margin: 0 auto;
+}
